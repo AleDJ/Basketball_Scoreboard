@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    background: #0369A1;
+}
+
+#container {
+    display: flex;
+    justify-content: space-around;
+    
+    width: 450px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+h3{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    color: #EEEEEE;
+}
+
+h2{
+    font-family: Cursed Timer ULiL;
+    font-weight: 400;
+    font-size: 90px;
+    text-align: center;
+    color: #BE123C;
+}
+
+#home-score, #guest-score{
+    width: 155px;
+    height: 120px;
+    padding-top: 30px;
+    margin: 10px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.increment-btn {
+    width: 45px;
+    height: 45px;
+
+    font-family: Cursed Timer ULiL;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+
+    background: none;
+    border: 1px solid #7DD3FC;
+    color: #7DD3FC;
+}
+
+#reset-btn{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    padding: 10px 20px;
+    display: block;
+    border-radius: 10px;
+    margin: 40px auto;
+    background: #10B981;
+    border: none;
+    color: white;
+}
+
+#reset-btn:hover{
+    background: #34D399;
+    color: white;
+}

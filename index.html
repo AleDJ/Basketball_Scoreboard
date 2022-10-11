@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div id="container">
+
+            <div>
+                <h3>HOME</h3>
+                <h2 id="home-score">0</h2>
+                <button class="increment-btn" onclick="sumScoreHome(1)">+1</button>
+                <button class="increment-btn" onclick="sumScoreHome(2)">+2</button>
+                <button class="increment-btn" onclick="sumScoreHome(3)">+3</button>
+            </div>
+
+            <div>
+                <h3>GUEST</h3>
+                <h2 id="guest-score">0</h2>
+                <button class="increment-btn" onclick="sumScoreGuest(1)">+1</button>
+                <button class="increment-btn" onclick="sumScoreGuest(2)">+2</button>
+                <button class="increment-btn" onclick="sumScoreGuest(3)">+3</button>
+            </div>
+        </div>
+
+        <div>
+            <button id="reset-btn" onclick="newGame()">RESTART GAME</button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
