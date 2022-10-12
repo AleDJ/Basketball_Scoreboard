@@ -21,11 +21,12 @@ body {
 h2{
     font-family: 'Cursed Timer ULiL', sans-serif;
     font-size: 90px;
+    font-weight: 400;
     text-align: center;
     color: #BE123C;
 }
 
-.score{
+#home-score, #guest-score{
     padding: 20px;
     margin: 20px auto;
     background-color: black;
