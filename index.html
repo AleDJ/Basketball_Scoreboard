@@ -1,25 +1,31 @@
 <!DOCTYPE html>
     <head>
-        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="style.css">
         <link href="http://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
-        <div id="container">
+        <div class="wrapper" id="container">
 
-            <div>
-                <h3>HOME</h3>
-                <h2 id="home-score">0</h2>
-                <button class="increment-btn" onclick="sumScoreHome(1)">+1</button>
-                <button class="increment-btn" onclick="sumScoreHome(2)">+2</button>
-                <button class="increment-btn" onclick="sumScoreHome(3)">+3</button>
+            <div class="player-block">
+                <h3 class="player">HOME</h3>
+                <h2 class="score">0</h2>
+                <div id="btn-home">
+                    <button class="increment-btn" onclick="sumScoreHome(1)">+1</button>
+                    <button class="increment-btn" onclick="sumScoreHome(2)">+2</button>
+                    <button class="increment-btn" onclick="sumScoreHome(3)">+3</button>
+                </div>    
             </div>
 
-            <div>
-                <h3>GUEST</h3>
-                <h2 id="guest-score">0</h2>
-                <button class="increment-btn" onclick="sumScoreGuest(1)">+1</button>
-                <button class="increment-btn" onclick="sumScoreGuest(2)">+2</button>
-                <button class="increment-btn" onclick="sumScoreGuest(3)">+3</button>
+            <div class="player-block">
+                <h3 class="player">GUEST</h3>
+                <h2 class="score">0</h2>
+                <div id="btn-guest">
+                    <button class="increment-btn" onclick="sumScoreGuest(1)">+1</button>
+                    <button class="increment-btn" onclick="sumScoreGuest(2)">+2</button>
+                    <button class="increment-btn" onclick="sumScoreGuest(3)">+3</button>
+                </div>
             </div>
         </div>
 
